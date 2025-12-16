@@ -16,7 +16,7 @@ export function createTerrain(texture, cloudTexture) {
     }
     geometry.computeVertexNormals();
 
-    const material = new THREE.StandardMaterial({ 
+    const material = new THREE.MeshStandardMaterial({ 
         map: texture,
         roughness: 0.9,
         metalness: 0.1,
